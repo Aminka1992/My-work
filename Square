@@ -1,0 +1,13 @@
+# Python Program to Calculate the Square of a Planet's Position
+
+def calculate_square(planet_position):
+    # Convert planet_position from degrees to radians
+    radians = planet_position * (3.14159 / 180)
+    # Compute the square of the planet's position
+    square_position = radians ** 2
+    return square_position
+
+# Example usage
+planet_position = 30  # Replace with the desired planet position in degrees
+square_result = calculate_square(planet_position)
+print("The square of the planet's position is:", square_result)
